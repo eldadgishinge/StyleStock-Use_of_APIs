@@ -1,54 +1,85 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
+    padding: 0;
+    background-color: #f0f0f0;
 }
 
-.container {
-    background-color: #fff;
+header {
+    background-color: #007bff;
+    color: white;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    width: 300px;
 }
 
-h1 {
-    color: #333;
+main {
+    padding: 20px;
+}
+
+.search-container {
+    text-align: center;
     margin-bottom: 20px;
 }
 
-input[type="text"] {
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    margin-bottom: 10px;
+.search-dropdown {
+    padding: 5px;
+    width: 70%;
 }
 
-button {
-    padding: 10px 20px;
-    background-color: #007BFF;
-    color: #fff;
+.search-button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
 }
 
-button:hover {
-    background-color: #0056b3;
+.products {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
 }
 
-#weatherDisplay {
-    margin-top: 20px;
+.product {
+    border: 1px solid #ccc;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    overflow: hidden;
 }
 
-p {
-    color: #444;
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.product-content {
+    padding: 10px 15px;
+}
+
+.product h2 {
+    font-size: 1.2rem;
     margin: 5px 0;
+}
+
+.product p {
+    font-size: 1rem;
+    color: #555;
+    margin: 0;
+}
+
+.product button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    display: block;
+    margin-top: 10px;
+    width: 100%;
 }

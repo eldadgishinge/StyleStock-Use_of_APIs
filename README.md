@@ -1,21 +1,25 @@
-# WeatherPulse-Use_of_APIs
-Welcome to the Weather Dashboard project! This simple web application allows users to search for weather information for a specific city using the OpenWeatherMap API. The application displays the current temperature and weather description for the chosen city.
+#StyleStock
 
-## Features
+E-commerce Website
+This project is a basic e-commerce store web application that allows customers to search for and view product information for various sorts of clothing. The program retrieves product data from the "Fake Store API" and presents it in a neat grid arrangement.
 
-- Input field to enter a city name.
-- Clickable "Search" button to retrieve weather information.
-- Displays current temperature and weather description for the selected city.
+Features
+Search by Category: Users may see goods from a certain apparel category by selecting one from the dropdown menu and clicking the "Search" button.
 
-## Getting Started
+Product Display: The retrieved goods are presented in a visually pleasing grid style, complete with product photos, names, and pricing.
 
-To run this project locally, follow these steps:
+Product Interaction: Users can mimic adding a product to the basket by clicking the "Add to Cart" button (an alert is presented for demonstration reasons).
 
-1. Clone the repository to your local machine.
-2. Open the `index.html` file in your preferred web browser.
+Usage
+Launch a web browser and navigate to index.html.
 
-## Usage
+Select a clothing category from the dropdown menu.
 
-1. Enter the name of a city in the input field.
-2. Click the "Search" button to retrieve weather information for the entered city.
-3. The current temperature and weather description for the city will be displayed.
+To view items from the specified category, click the "Search" button.
+
+Click the "Add to Cart" button to interact with the shown goods.
+
+The product data was provided via "Fake Store API" using HTML CSS JavaScript.
+
+Disclaimer
+This is a basic example that excludes genuine e-commerce capabilities like as cart management, payment processing, and user identification. It provides as an example of how to use APIs to retrieve and show product data.
